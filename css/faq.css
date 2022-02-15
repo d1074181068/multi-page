@@ -1,0 +1,238 @@
+.container{
+    margin: 0 auto;
+    width: 1000px;
+    font-family: Microsoft JhengHei;
+}
+.header{
+    background-image: url(../images/bg_QA.png);
+    height:560px
+}
+.navbar{
+    background-color:rgba(220, 220, 220, 0.2);
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    display: block;
+    width: 177px;
+    height: 36px;
+    background-image:url(../images/logo.png) ;
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    margin-right: 40px;
+}
+
+.menu a:hover {
+    color:rgb(0, 204, 153);
+    padding:15px 25px;
+    border-bottom: 5px solid rgb(0, 204, 153);
+}
+.menu a{
+    display: block;
+    color:white;
+    text-decoration: none;
+    padding:20px 25px;
+}
+.banner{
+    margin:110px 0px 100px 30px;
+    position: relative;
+}
+.banner p{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    line-height: 0.8;
+}
+.banner>p span{
+    color: rgb(0, 204, 153);
+    font-size: 23px;
+}
+.banner input[type="text"]{
+    width: 620px;
+    height: 45px;
+    position: absolute;
+    top:150px;
+    left:170px;
+    border: none;
+    border-radius:5px ;
+}
+.banner input[type="button"]{
+    width: 56px;
+    height: 46px;
+    background-image: url(../images/search2.png);
+    background-repeat: no-repeat;
+    position:absolute;
+    top:150px;
+    right:180px;
+    border: none;
+    border-radius: 5px;
+}
+.banner input[type="button"]:hover{
+    cursor: pointer;
+
+}
+.content{
+    padding: 50px 110px;
+}
+.content li  h2{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.content li  h2 span{
+    display: inline-block;
+    margin-right: 15px;
+    color:rgb(0, 204, 153) ;
+    font-size: 36px;
+
+}
+.commonQ,.pay,.refund{
+    margin-bottom: 60px;
+}
+.commonQ li,.pay li,.refund li{
+    margin-bottom: 20px;
+}
+.commonQ li h3,.pay li h3 ,.refund li h3{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 5px;
+}
+.commonQ li p ,.pay li p,.refund li p {
+    color: gray;
+    line-height: 1.5;
+    margin-left: 5px;
+}
+.commonQ li a, .pay li a ,.refund li a{
+    text-decoration: none;
+    color:rgb(0, 204, 153);
+    font-weight: bold;
+}
+.commonQ li:hover ,.pay li:hover ,.refund li:hover{
+    background-color: #FFEBCD;
+}
+.commonQ li a:hover, .pay li a:hover ,.refund li a:hover{
+    text-decoration: underline;
+}
+
+.pay ol {
+    list-style: decimal;
+    margin-left: 60px;
+}
+.pay ol li {
+    margin-bottom: 5px;
+    padding-left: 20px;
+    color: gray;
+}
+.refund .refund-inform li ,.after-refund-notice li{
+    margin: 10px 0px 5px;
+    padding-left: 30px;
+    color: gray;
+}
+.refund .refund-inform ,.after-refund-notice{
+    list-style: disc;
+    margin-left: 60px;
+}
+.after-refund p{
+    font-weight: bold;
+}
+.after-refund-notice li{
+    line-height: 1.5;
+}
+.contact{
+    display: flex;
+    justify-content: space-between;
+    background-color:rgb(235, 235, 235) ;
+    margin-top: 30px;
+    padding: 140px 50px 50px 60px;
+}
+.contact p{
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 80px;
+    line-height: 1.5;
+}
+.contact-form input{
+    display: block;
+}
+.contact-form input[type="text"],.contact-form input[type="email"]{
+    width: 350px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border:0px solid black;
+    padding-left: 10px;
+}
+.contact-form textarea{
+    width: 350px;
+    height: 150px;
+    padding: 10px;
+    resize: none;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.submit{
+    display: flex;
+    justify-content: flex-end;
+}
+.contact-form input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border:1px solid rgb(0, 204, 153);
+    background-color: rgb(0, 204, 153);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.contact-form input[type="submit"]:hover{
+    color: red;
+    cursor: pointer;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(50, 50, 40);
+    padding: 35px 40px;
+}
+.ft-logo a{
+    display: block;
+    width: 300px;
+    height:40px;
+}
+.ft-logo p{
+    color:gray;
+    margin-left: 40px;
+}
+.ft-link{
+    display: flex;
+}
+.ft-link li{
+    margin: 10px;
+}
+.ft-link .fb-icon{
+    display: inline-block;
+    width: 34px;
+    height:34px;
+    background-image: url(../images/fb.png);
+}
+.ft-link .IG-icon{
+    display: inline-block;
+    width: 34px;
+    height:34px;
+    background-image: url(../images/ig.png);
+}
+.ft-link .twitter-icon{
+    display: inline-block;
+    width: 34px;
+    height:34px;
+    background-image: url(../images/tw.png);
+}
